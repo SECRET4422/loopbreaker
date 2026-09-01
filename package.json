@@ -1,0 +1,54 @@
+{
+  "name": "loopbreaker",
+  "version": "1.0.0",
+  "description": "Autonomous AI Bug-Loop Interrupter & Circuit Breaker for Cursor and Claude coding sessions.",
+  "type": "module",
+  "main": "build/src/index.js",
+  "bin": {
+    "loopbreaker": "build/src/index.js"
+  },
+  "files": [
+    "build/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "start": "node build/index.js",
+    "test": "node --test build/tests/*.test.js",
+    "prepublishOnly": "npm run build && npm test"
+  },
+  "keywords": [
+    "vibe-coding",
+    "cursor",
+    "claude",
+    "ai-coding",
+    "circuit-breaker",
+    "debugging",
+    "developer-tools",
+    "cli",
+    "git-diff",
+    "llm"
+  ],
+  "author": "Prabhakar Pal (https://github.com/SECRET4422)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SECRET4422/loopbreaker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SECRET4422/loopbreaker/issues"
+  },
+  "homepage": "https://github.com/SECRET4422/loopbreaker#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.5",
+    "typescript": "^5.6.3"
+  }
+}
