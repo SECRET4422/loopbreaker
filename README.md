@@ -3,8 +3,8 @@
 
 <p align="center">
   <a href="https://github.com/SECRET4422/loopbreaker/actions"><img src="https://img.shields.io/github/actions/workflow/status/SECRET4422/loopbreaker/ci.yml?branch=main&label=CI&logo=github" alt="CI" /></a>
-  <a href="https://www.npmjs.com/package/loopbreaker"><img src="https://img.shields.io/npm/v/loopbreaker?logo=npm&color=red" alt="npm" /></a>
-  <a href="https://www.npmjs.com/package/loopbreaker"><img src="https://img.shields.io/npm/dm/loopbreaker?logo=npm" alt="downloads" /></a>
+  <a href="https://www.npmjs.com/package/@ssgk4422/loopbreaker"><img src="https://img.shields.io/npm/v/@ssgk4422/loopbreaker?logo=npm&color=red" alt="npm" /></a>
+  <a href="https://www.npmjs.com/package/@ssgk4422/loopbreaker"><img src="https://img.shields.io/npm/dm/@ssgk4422/loopbreaker?logo=npm" alt="downloads" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-3ddc97.svg" alt="MIT" /></a>
   <a href="https://github.com/SECRET4422/loopbreaker/stargazers"><img src="https://img.shields.io/github/stars/SECRET4422/loopbreaker?style=flat&logo=github" alt="stars" /></a>
   <a href="skills/loop-breaker/SKILL.md"><img src="https://img.shields.io/badge/Agent%20Skill-Compatible-8a2be2" alt="Agent Skill" /></a>
@@ -38,7 +38,7 @@ When building apps with AI (Cursor, Claude Code, Lovable, Bolt), non-technical b
 Run a single zero-config command inside any project:
 
 ```bash
-npx loopbreaker
+npx @ssgk4422/loopbreaker
 ```
 
 > No installation, no accounts, and **zero API keys required**. LoopBreaker runs 100% locally on your machine.

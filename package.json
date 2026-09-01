@@ -1,11 +1,12 @@
 {
-  "name": "loopbreaker",
+  "name": "@ssgk4422/loopbreaker",
   "version": "1.0.0",
   "description": "Autonomous AI Bug-Loop Interrupter & Circuit Breaker for Cursor and Claude coding sessions.",
   "type": "module",
   "main": "build/src/index.js",
   "bin": {
-    "loopbreaker": "build/src/index.js"
+    "loopbreaker": "build/src/index.js",
+    "@ssgk4422/loopbreaker": "build/src/index.js"
   },
   "files": [
     "build/",
