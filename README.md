@@ -89,16 +89,16 @@ Options: Press [R] to rollback to pre-loop snapshot | [C] to clear alarm
 
 ```bash
 # Start background watcher (default)
-npx loopbreaker
+npx @ssgk4422/loopbreaker
 
 # 1-click rollback to clean state before the loop began
-npx loopbreaker rollback
+npx @ssgk4422/loopbreaker rollback
 
 # View history of recent file snapshots & timestamps
-npx loopbreaker history
+npx @ssgk4422/loopbreaker history
 
 # Display help and options
-npx loopbreaker --help
+npx @ssgk4422/loopbreaker --help
 ```
 
 ---
