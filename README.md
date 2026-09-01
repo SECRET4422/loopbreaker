@@ -11,6 +11,10 @@
   <img src="https://img.shields.io/badge/Zero%20API%20Keys-Free-2ea44f" alt="Zero API Keys" />
 </p>
 
+<p align="center">
+  <img src="assets/social-preview.jpg" alt="LoopBreaker Banner" width="100%" />
+</p>
+
 ---
 
 ### The Problem: The AI "Whack-a-Mole" Loop
